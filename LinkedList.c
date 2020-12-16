@@ -7,8 +7,8 @@ void ListInit(List * plist) {
     plist->tail = NULL;
 }
 
-void LInsert(List * plist, SData data) {
-    LNode * newNode = (Node*)malloc(sizeof(Node));
+void LInsert(List * plist, LData data) {
+    LNode * newNode = (LNode*)malloc(sizeof(LNode));
     newNode->data = data;
     newNode->next = NULL;
 
@@ -21,7 +21,7 @@ void LInsert(List * plist, SData data) {
         plist->tail = newNode;
 }
 
-Data LRemove(List* plist) {
+LData LRemove(List* plist) {
     LData rdata;
     LNode* rnode;
 

@@ -14,7 +14,7 @@ int SIsEmpty(Stack * pstack) {              // 스택이 비어있는지 확인
 }
 
 void Push(Stack * pstack, SData data) {      // 스택의 push연산
-    SNode * newNode = (SNode*)malloc(sizeof(Node));
+    SNode * newNode = (SNode*)malloc(sizeof(SNode));
 
     newNode->data = data;
     newNode->next = pstack->head;
