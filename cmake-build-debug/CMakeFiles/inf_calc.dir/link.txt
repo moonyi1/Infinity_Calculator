@@ -1,0 +1,3 @@
+C:\Users\choi1_lrf1xg7\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\inf_calc.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\inf_calc.dir/objects.a @CMakeFiles\inf_calc.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\inf_calc.dir/objects.a -Wl,--no-whole-archive  -o inf_calc.exe -Wl,--out-implib,libinf_calc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\inf_calc.dir\linklibs.rsp

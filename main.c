@@ -1,6 +1,4 @@
 #include "inf_calc.h"
-#include "LinkedList.h"
-#include "Stack.h"
 
 int main(void) {
     char* list;
