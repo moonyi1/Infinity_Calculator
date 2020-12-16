@@ -7,8 +7,8 @@ void ListInit(List * plist) {
     plist->tail = NULL;
 }
 
-void LInsert(List * plist, Data data) {
-    Node * newNode = (Node*)malloc(sizeof(Node));
+void LInsert(List * plist, SData data) {
+    LNode * newNode = (Node*)malloc(sizeof(Node));
     newNode->data = data;
     newNode->next = NULL;
 
@@ -22,8 +22,8 @@ void LInsert(List * plist, Data data) {
 }
 
 Data LRemove(List* plist) {
-    Data rdata;
-    Node* rnode;
+    LData rdata;
+    LNode* rnode;
 
     if (plist->head == NULL) {
         printf("list memory error");

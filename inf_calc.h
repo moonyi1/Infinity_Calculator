@@ -20,7 +20,7 @@ typedef struct _number {
 } Num;
 
 List inf_to_pos(char* list);
-Digit calculator(List postfix_expression);
-void print_result(Digit result);
+Num calculator(List postfix_expression);
+void print_result(Num result);
 
 #endif

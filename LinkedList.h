@@ -4,20 +4,20 @@
 #define TRUE    1
 #define FALSE   0
 
-typedef int Data;
+typedef int LData;
 
 typedef struct _node {
-    Data data;
-    struct _node * next;
-} Node, *pNode;
+    LData data;
+    struct _lnode * next;
+} LNode, *pLNode;
 
 typedef struct _list {
-    Node * head;
-    Node * tail;
+    LNode * head;
+    LNode * tail;
 } List, *pList;
 
 void ListInit(List * plist);
-void LInsert(List * plist, Data data);
-Data LRemove(List* plist);
+void LInsert(List * plist, LData data);
+LData LRemove(List* plist);
 
 #endif

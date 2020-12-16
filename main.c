@@ -2,13 +2,11 @@
 
 int main(void) {
     char* list;
-    struct number
+    Num result;
     List postfix_Expr;
 
-
     postfix_Expr = inf_to_pos(list);
-    calculator(postfix_Expr);
-    print_result()
-
+    result = calculator(postfix_Expr);
+    print_result(result);
 }
 
