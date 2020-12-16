@@ -196,6 +196,33 @@ Stack.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\inf_calc.dir\build.make CMakeFiles/inf_calc.dir/Stack.c.s
 .PHONY : Stack.c.s
 
+inf_calc.obj: inf_calc.c.obj
+
+.PHONY : inf_calc.obj
+
+# target to build an object file
+inf_calc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inf_calc.dir\build.make CMakeFiles/inf_calc.dir/inf_calc.c.obj
+.PHONY : inf_calc.c.obj
+
+inf_calc.i: inf_calc.c.i
+
+.PHONY : inf_calc.i
+
+# target to preprocess a source file
+inf_calc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inf_calc.dir\build.make CMakeFiles/inf_calc.dir/inf_calc.c.i
+.PHONY : inf_calc.c.i
+
+inf_calc.s: inf_calc.c.s
+
+.PHONY : inf_calc.s
+
+# target to generate assembly for a file
+inf_calc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inf_calc.dir\build.make CMakeFiles/inf_calc.dir/inf_calc.c.s
+.PHONY : inf_calc.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -238,6 +265,9 @@ help:
 	@echo ... Stack.obj
 	@echo ... Stack.i
 	@echo ... Stack.s
+	@echo ... inf_calc.obj
+	@echo ... inf_calc.i
+	@echo ... inf_calc.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/LinkedList.c" "C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/cmake-build-debug/CMakeFiles/inf_calc.dir/LinkedList.c.obj"
   "C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/Stack.c" "C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/cmake-build-debug/CMakeFiles/inf_calc.dir/Stack.c.obj"
+  "C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/inf_calc.c" "C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/cmake-build-debug/CMakeFiles/inf_calc.dir/inf_calc.c.obj"
   "C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/main.c" "C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/cmake-build-debug/CMakeFiles/inf_calc.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

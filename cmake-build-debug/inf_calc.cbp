@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/Stack.h">
 			<Option target="inf_calc"/>
 		</Unit>
+		<Unit filename="C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/inf_calc.c">
+			<Option target="inf_calc"/>
+		</Unit>
+		<Unit filename="C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/inf_calc.h">
+			<Option target="inf_calc"/>
+		</Unit>
 		<Unit filename="C:/Users/choi1_lrf1xg7/CLionProjects/inf_calc/main.c">
 			<Option target="inf_calc"/>
 		</Unit>
