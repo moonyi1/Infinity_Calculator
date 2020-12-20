@@ -17,3 +17,12 @@ char * input(char* ar)
 
 	return p;
 }
+
+/*
+int main(void)
+{
+	char *p;
+	p = input("test.txt");
+	printf("%s", p);
+}
+*/
