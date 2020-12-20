@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include "inf_calc.h"
 
 Num upDown(Num number, int round)
 {
 	int i;
-	Digit integer_part_head, decimal_part_head;
+	Digit * integer_part_head, * decimal_part_head;
 
 	if (round > 0) {
 		for (i = round; i != 0; i--) {
