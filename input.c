@@ -3,12 +3,14 @@
 
 #define MAX 1000
 
-char * input()
+char * input(char* ar)
 {
-	char c, a[MAX], *p;
-	int i;
+	char	c, a[MAX], *p;
+	int		i;
+	FILE	*ifp;
 
-	for (i = 0; (c = getchar()) != '\n'; ++i) {
+	ifp = fopen(ar, "r");
+	for (i = 0; (c = getc(ifp)) != EOF; ++i) {
 		a[i] = c;
 	}
 	a[i] = '\0';
@@ -16,14 +18,3 @@ char * input()
 
 	return p;
 }
-
-/*
-int main(void)
-{
-	char *p = input();
-
-	printf("%s\n", p);
-
-	return 0;
-}
-*/
