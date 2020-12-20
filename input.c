@@ -1,20 +1,23 @@
 #include <stdio.h>
-
-#define MAX 1000
+#include <stdlib.h>
 
 char * input(char* ar)
 {
-	char	c, a[MAX], *p;
-	int		i;
+	char	c, *p;
+	int	i;
 	FILE	*ifp;
 
 	ifp = fopen(ar, "r");
-	for (i = 0; (c = getc(ifp)) != EOF; ++i) {
-		a[i] = c;
+	for (i = 0; (c = getc(ifp)) != EOF; i++) { }
+	
+	p = malloc(sizeof(char) * (i + 1));
+	rewind(ifp);
+	
+	for (i = 0; (c = getc(ifp)) != EOF; i++) {
+		p[i] = c;
 	}
-	a[i] = '\0';
-	p = a;
-
+	
+	p[i++] = '\0';
 	return p;
 }
 
