@@ -26,7 +26,7 @@ Num upDown(Num number, int round)
 		
 	integer_part_head = number.integer_part;
 	decimal_part_head = number.decimal_part;
-	for ( ; integer_part_head != NULL; integer_part_head = integer_part_head -> next) {}
+	for ( ; integer_part_head -> next != NULL; integer_part_head = integer_part_head -> next) {}
 	integer_part_head -> next = decimal_part_head;
 
 	integer_part_head = number.integer_part;
